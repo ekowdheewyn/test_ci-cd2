@@ -1,6 +1,5 @@
 import os
 import subprocess
-import sys
 
 # Define GitHub repository URL
 GITHUB_REPOSITORY = "https://github.com/ekowdheewyn/test_ci-cd2.git"
@@ -19,27 +18,17 @@ def run_unit_tests():
         print(f"Unit tests failed: {e}")
         exit(1)
 
-def check_for_changes():
-    """
-    Checks if there are any changes to commit.
-    """
-    try:
-        # Check for changes
-        result = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True)
-        if result.stdout.strip():
-            return True
-        else:
-            print("No changes to commit.")
-            return False
-    except subprocess.CalledProcessError as e:
-        print(f"Failed to check for changes: {e}")
-        exit(1)
-
 def commit_and_push_changes():
     """
     Commits and pushes changes to the GitHub repository.
     """
     try:
+        # Check if there are any changes to commit
+        status_output = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True)
+        if status_output.stdout.strip() == "":
+            print("No changes to commit. Skipping commit and push steps.")
+            return
+
         # Stage all changes
         subprocess.run(["git", "add", "."], check=True)
 
@@ -55,9 +44,4 @@ def commit_and_push_changes():
 
 if __name__ == "__main__":
     run_unit_tests()
-
-    if check_for_changes():
-        commit_and_push_changes()
-    else:
-        print("No changes to commit. Exiting.")
-        exit(0)
+    commit_and_push_changes()
