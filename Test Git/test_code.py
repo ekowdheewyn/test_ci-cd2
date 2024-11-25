@@ -3,7 +3,7 @@ import subprocess
 import sys
 
 # Define GitHub repository URL
-GITHUB_REPOSITORY = "https://github.com/yourusername/yourrepository.git"
+GITHUB_REPOSITORY = "https://github.com/ekowdheewyn/test_ci-cd2.git"
 
 # Define branch name
 BRANCH_NAME = "main"
