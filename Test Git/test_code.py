@@ -2,7 +2,7 @@ import os
 import subprocess
 
 # Define GitHub repository URL
-GITHUB_REPOSITORY = "https://github.com/ekowdheewyn/test_ci-cd2.git"
+GITHUB_REPOSITORY = "https://github.com/yourusername/yourrepository.git"
 
 # Define branch name
 BRANCH_NAME = "main"
@@ -24,10 +24,13 @@ def commit_and_push_changes():
     """
     try:
         # Check if there are any changes to commit
-        status_output = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True)
-        if status_output.stdout.strip() == "":
-            print("No changes to commit. Skipping commit and push steps.")
+        try:
+            subprocess.run(["git", "diff", "--quiet", "--exit-code"], check=True)
+            print("No changes to commit.")
             return
+        except subprocess.CalledProcessError:
+            # Changes exist, proceed with commit
+            pass
 
         # Stage all changes
         subprocess.run(["git", "add", "."], check=True)
@@ -40,6 +43,9 @@ def commit_and_push_changes():
         print("Changes committed and pushed to GitHub!")
     except subprocess.CalledProcessError as e:
         print(f"Failed to commit and push changes: {e}")
+        exit(1)
+    except ValueError as e:
+        print(f"Invalid repository URL or branch name: {e}")
         exit(1)
 
 if __name__ == "__main__":
