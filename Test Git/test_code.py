@@ -1,8 +1,9 @@
 import os
 import subprocess
+import sys
 
 # Define GitHub repository URL
-GITHUB_REPOSITORY = "https://github.com/ekowdheewyn/test_ci-cd.git"
+GITHUB_REPOSITORY = "https://github.com/yourusername/yourrepository.git"
 
 # Define branch name
 BRANCH_NAME = "main"
@@ -12,10 +13,26 @@ def run_unit_tests():
     Runs unit tests using pytest.
     """
     try:
-        subprocess.run(["pytest", "./tests/test_script.py"], check=True)
+        subprocess.run(["pytest", "tests"], check=True)
         print("Unit tests passed!")
     except subprocess.CalledProcessError as e:
         print(f"Unit tests failed: {e}")
+        exit(1)
+
+def check_for_changes():
+    """
+    Checks if there are any changes to commit.
+    """
+    try:
+        # Check for changes
+        result = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True)
+        if result.stdout.strip():
+            return True
+        else:
+            print("No changes to commit.")
+            return False
+    except subprocess.CalledProcessError as e:
+        print(f"Failed to check for changes: {e}")
         exit(1)
 
 def commit_and_push_changes():
@@ -38,4 +55,9 @@ def commit_and_push_changes():
 
 if __name__ == "__main__":
     run_unit_tests()
-    commit_and_push_changes()
+
+    if check_for_changes():
+        commit_and_push_changes()
+    else:
+        print("No changes to commit. Exiting.")
+        exit(0)
