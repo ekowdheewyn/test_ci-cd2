@@ -1,0 +1,75 @@
+2024-11-21 19:48:54,273 - DEBUG - Detected pattern: 6, Support: ['A'], Dataset Size: 9
+2024-11-21 19:48:54,273 - DEBUG - Detected pattern: 4, Support: ['A', 'B'], Dataset Size: 9
+2024-11-21 19:48:54,273 - DEBUG - Detected pattern: 3, Support: ['A', 'B', 'C'], Dataset Size: 9
+2024-11-21 19:48:54,273 - DEBUG - Detected pattern: 2, Support: ['A', 'B', 'D'], Dataset Size: 9
+2024-11-21 19:48:54,274 - DEBUG - Detected pattern: 2, Support: ['A', 'B', 'E'], Dataset Size: 9
+2024-11-21 19:48:54,274 - DEBUG - Detected pattern: 5, Support: ['A', 'C'], Dataset Size: 9
+2024-11-21 19:48:54,274 - DEBUG - Detected pattern: 3, Support: ['A', 'C', 'D'], Dataset Size: 9
+2024-11-21 19:48:54,274 - DEBUG - Detected pattern: 2, Support: ['A', 'C', 'E'], Dataset Size: 9
+2024-11-21 19:48:54,274 - DEBUG - Detected pattern: 4, Support: ['A', 'D'], Dataset Size: 9
+2024-11-21 19:48:54,274 - DEBUG - Detected pattern: 2, Support: ['A', 'D', 'E'], Dataset Size: 9
+2024-11-21 19:48:54,274 - DEBUG - Detected pattern: 3, Support: ['A', 'E'], Dataset Size: 9
+2024-11-21 19:48:54,274 - DEBUG - Detected pattern: 7, Support: ['B'], Dataset Size: 9
+2024-11-21 19:48:54,274 - DEBUG - Detected pattern: 6, Support: ['B', 'C'], Dataset Size: 9
+2024-11-21 19:48:54,274 - DEBUG - Detected pattern: 3, Support: ['B', 'C', 'D'], Dataset Size: 9
+2024-11-21 19:48:54,274 - DEBUG - Detected pattern: 3, Support: ['B', 'C', 'E'], Dataset Size: 9
+2024-11-21 19:48:54,274 - DEBUG - Detected pattern: 4, Support: ['B', 'D'], Dataset Size: 9
+2024-11-21 19:48:54,274 - DEBUG - Detected pattern: 2, Support: ['B', 'D', 'E'], Dataset Size: 9
+2024-11-21 19:48:54,274 - DEBUG - Detected pattern: 4, Support: ['B', 'E'], Dataset Size: 9
+2024-11-21 19:48:54,274 - DEBUG - Detected pattern: 8, Support: ['C'], Dataset Size: 9
+2024-11-21 19:48:54,274 - DEBUG - Detected pattern: 5, Support: ['C', 'D'], Dataset Size: 9
+2024-11-21 19:48:54,274 - DEBUG - Detected pattern: 2, Support: ['C', 'D', 'E'], Dataset Size: 9
+2024-11-21 19:48:54,274 - DEBUG - Detected pattern: 4, Support: ['C', 'E'], Dataset Size: 9
+2024-11-21 19:48:54,274 - DEBUG - Detected pattern: 6, Support: ['D'], Dataset Size: 9
+2024-11-21 19:48:54,274 - DEBUG - Detected pattern: 3, Support: ['D', 'E'], Dataset Size: 9
+2024-11-21 19:48:54,274 - DEBUG - Detected pattern: 5, Support: ['E'], Dataset Size: 9
+2024-11-21 19:49:28,111 - DEBUG - Detected pattern: 6, Support: ['A'], Dataset size: 9
+2024-11-21 19:49:28,112 - DEBUG - Detected pattern: 4, Support: ['A', 'B'], Dataset size: 9
+2024-11-21 19:49:28,112 - DEBUG - Detected pattern: 3, Support: ['A', 'B', 'C'], Dataset size: 9
+2024-11-21 19:49:28,112 - DEBUG - Detected pattern: 2, Support: ['A', 'B', 'D'], Dataset size: 9
+2024-11-21 19:49:28,112 - DEBUG - Detected pattern: 2, Support: ['A', 'B', 'E'], Dataset size: 9
+2024-11-21 19:49:28,112 - DEBUG - Detected pattern: 5, Support: ['A', 'C'], Dataset size: 9
+2024-11-21 19:49:28,112 - DEBUG - Detected pattern: 3, Support: ['A', 'C', 'D'], Dataset size: 9
+2024-11-21 19:49:28,112 - DEBUG - Detected pattern: 2, Support: ['A', 'C', 'E'], Dataset size: 9
+2024-11-21 19:49:28,112 - DEBUG - Detected pattern: 4, Support: ['A', 'D'], Dataset size: 9
+2024-11-21 19:49:28,112 - DEBUG - Detected pattern: 2, Support: ['A', 'D', 'E'], Dataset size: 9
+2024-11-21 19:49:28,112 - DEBUG - Detected pattern: 3, Support: ['A', 'E'], Dataset size: 9
+2024-11-21 19:49:28,114 - DEBUG - Detected pattern: 7, Support: ['B'], Dataset size: 9
+2024-11-21 19:49:28,114 - DEBUG - Detected pattern: 6, Support: ['B', 'C'], Dataset size: 9
+2024-11-21 19:49:28,114 - DEBUG - Detected pattern: 3, Support: ['B', 'C', 'D'], Dataset size: 9
+2024-11-21 19:49:28,114 - DEBUG - Detected pattern: 3, Support: ['B', 'C', 'E'], Dataset size: 9
+2024-11-21 19:49:28,114 - DEBUG - Detected pattern: 4, Support: ['B', 'D'], Dataset size: 9
+2024-11-21 19:49:28,114 - DEBUG - Detected pattern: 2, Support: ['B', 'D', 'E'], Dataset size: 9
+2024-11-21 19:49:28,114 - DEBUG - Detected pattern: 4, Support: ['B', 'E'], Dataset size: 9
+2024-11-21 19:49:28,114 - DEBUG - Detected pattern: 8, Support: ['C'], Dataset size: 9
+2024-11-21 19:49:28,115 - DEBUG - Detected pattern: 5, Support: ['C', 'D'], Dataset size: 9
+2024-11-21 19:49:28,115 - DEBUG - Detected pattern: 2, Support: ['C', 'D', 'E'], Dataset size: 9
+2024-11-21 19:49:28,115 - DEBUG - Detected pattern: 4, Support: ['C', 'E'], Dataset size: 9
+2024-11-21 19:49:28,115 - DEBUG - Detected pattern: 6, Support: ['D'], Dataset size: 9
+2024-11-21 19:49:28,115 - DEBUG - Detected pattern: 3, Support: ['D', 'E'], Dataset size: 9
+2024-11-21 19:49:28,115 - DEBUG - Detected pattern: 5, Support: ['E'], Dataset size: 9
+2024-11-21 19:51:07,816 - DEBUG - Detected pattern: 6, Support: ['A'], Dataset size: 9
+2024-11-21 19:51:07,816 - DEBUG - Detected pattern: 4, Support: ['A', 'B'], Dataset size: 9
+2024-11-21 19:51:07,817 - DEBUG - Detected pattern: 3, Support: ['A', 'B', 'C'], Dataset size: 9
+2024-11-21 19:51:07,817 - DEBUG - Detected pattern: 2, Support: ['A', 'B', 'D'], Dataset size: 9
+2024-11-21 19:51:07,817 - DEBUG - Detected pattern: 2, Support: ['A', 'B', 'E'], Dataset size: 9
+2024-11-21 19:51:07,817 - DEBUG - Detected pattern: 5, Support: ['A', 'C'], Dataset size: 9
+2024-11-21 19:51:07,817 - DEBUG - Detected pattern: 3, Support: ['A', 'C', 'D'], Dataset size: 9
+2024-11-21 19:51:07,818 - DEBUG - Detected pattern: 2, Support: ['A', 'C', 'E'], Dataset size: 9
+2024-11-21 19:51:07,818 - DEBUG - Detected pattern: 4, Support: ['A', 'D'], Dataset size: 9
+2024-11-21 19:51:07,818 - DEBUG - Detected pattern: 2, Support: ['A', 'D', 'E'], Dataset size: 9
+2024-11-21 19:51:07,818 - DEBUG - Detected pattern: 3, Support: ['A', 'E'], Dataset size: 9
+2024-11-21 19:51:07,818 - DEBUG - Detected pattern: 7, Support: ['B'], Dataset size: 9
+2024-11-21 19:51:07,818 - DEBUG - Detected pattern: 6, Support: ['B', 'C'], Dataset size: 9
+2024-11-21 19:51:07,819 - DEBUG - Detected pattern: 3, Support: ['B', 'C', 'D'], Dataset size: 9
+2024-11-21 19:51:07,819 - DEBUG - Detected pattern: 3, Support: ['B', 'C', 'E'], Dataset size: 9
+2024-11-21 19:51:07,819 - DEBUG - Detected pattern: 4, Support: ['B', 'D'], Dataset size: 9
+2024-11-21 19:51:07,819 - DEBUG - Detected pattern: 2, Support: ['B', 'D', 'E'], Dataset size: 9
+2024-11-21 19:51:07,819 - DEBUG - Detected pattern: 4, Support: ['B', 'E'], Dataset size: 9
+2024-11-21 19:51:07,819 - DEBUG - Detected pattern: 8, Support: ['C'], Dataset size: 9
+2024-11-21 19:51:07,820 - DEBUG - Detected pattern: 5, Support: ['C', 'D'], Dataset size: 9
+2024-11-21 19:51:07,820 - DEBUG - Detected pattern: 2, Support: ['C', 'D', 'E'], Dataset size: 9
+2024-11-21 19:51:07,820 - DEBUG - Detected pattern: 4, Support: ['C', 'E'], Dataset size: 9
+2024-11-21 19:51:07,820 - DEBUG - Detected pattern: 6, Support: ['D'], Dataset size: 9
+2024-11-21 19:51:07,820 - DEBUG - Detected pattern: 3, Support: ['D', 'E'], Dataset size: 9
+2024-11-21 19:51:07,820 - DEBUG - Detected pattern: 5, Support: ['E'], Dataset size: 9
